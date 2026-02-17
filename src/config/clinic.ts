@@ -1,307 +1,351 @@
 export const clinic = {
-  // === IDENTIDAD ===
-  name: "Centro Estética CyM",
-  logo: "/images/logo.jpg" as string | null,
-  tagline: "Tu Centro de Belleza en Puertollano",
-  description: "Centro Estética CyM es un centro de belleza integral en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados para realzar tu belleza natural.",
-
-  // === PALETA (Elegante/Spa) ===
+  name: "Clínica de fisioterapia Javier Iglesias Nespereira",
+  logo: "/images/logo.png",
+  tagline: "Fisioterapia experta en Las Palmas, Álava",
+  description: "Clínica de fisioterapia Javier Iglesias Nespereira en Las Palmas, Álava. Especialistas en recuperación deportiva, tratamiento de lesiones complejas y rehabilitación personalizada. Con 4.9 estrellas en Google, ofrecemos fisioterapia manual avanzada, tratamientos especializados y tecnología de última generación para tu recuperación completa.",
   colors: {
-    primary: "#C9A86C",      // Dorado elegante
-    secondary: "#2D2D2D",    // Gris sofisticado
-    accent: "#D4A574",       // Rosa champán
-    neutral: "#FAF8F5",      // Crema cálido
+    primary: "#2563EB",
+    secondary: "#1E293B",
+    accent: "#06B6D4",
+    neutral: "#F8FAFC"
   },
-
-  // === CONTACTO ===
-  phone: "629 61 04 71",
-  whatsapp: "+34629610471",
-  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de estética.",
-  email: "info@esteticacym.es",
-
-  // === UBICACIÓN ===
+  phone: "637 94 05 43",
+  whatsapp: "+34637940543",
+  whatsappMessage: "Hola, me gustaría solicitar información sobre vuestros tratamientos de fisioterapia.",
+  email: "",
   address: {
-    street: "C. Numancia, 40",
-    city: "Puertollano",
-    province: "Ciudad Real",
-    postalCode: "13500",
-    country: "España",
+    street: "C. Víctor Hugo, 52, 35006 Las Palmas de Gran Canaria, Las Palmas, España",
+    city: "Las Palmas",
+    province: "Álava",
+    postalCode: "35006",
+    country: "España"
   },
-  googleMapsUrl: "https://maps.google.com/?q=C.+Numancia+40+Puertollano",
-  googleMapsEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3144.5!2d-4.1078!3d38.6872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6d1f1a8a8a8a8a%3A0x0!2sC.+Numancia%2C+40%2C+13500+Puertollano!5e0!3m2!1ses!2ses!4v1",
-  coordinates: { lat: 38.6872, lng: -4.1078 },
-
-  // === HORARIOS ===
+  googleMapsUrl: "https://maps.google.com/?cid=10280781194817372792&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+  googleMapsEmbed: "https://maps.google.com/maps?q=Cl%C3%ADnica%20de%20fisioterapia%20Javier%20Iglesias%20Nespereira%20%4028.1321%2C-15.4337&z=16&output=embed",
+  coordinates: {
+    lat: 28.1321,
+    lng: -15.4337
+  },
   schedule: [
-    { days: "Lunes - Viernes", hours: "10:00 - 20:00" },
-    { days: "Sábado", hours: "Cerrado" },
-    { days: "Domingo", hours: "Cerrado" },
+    {
+      days: "lunes - viernes",
+      hours: "9:00–20:00"
+    },
+    {
+      days: "sábado - domingo",
+      hours: "Cerrado"
+    }
   ],
-
-  // === REDES SOCIALES ===
   social: {
-    instagram: "https://www.instagram.com/centrodeesteticacym/",
-    facebook: "https://www.facebook.com/centrodeesteticacym/",
-    linkedin: null as string | null,
-    tiktok: null as string | null,
+    instagram: null,
+    facebook: null,
+    linkedin: null,
+    tiktok: null
   },
-
-  // === RESEÑAS GOOGLE ===
   reviews: {
-    rating: 4.7,
-    count: 190,
-    url: "#",
+    rating: 4.9,
+    count: 66,
+    url: "https://maps.google.com/?cid=10280781194817372792&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
     featured: [
       {
-        author: "Eva León",
+        author: "Nara Escalero Romero",
         rating: 5,
-        text: "Increíble trabajo de micropigmentación. El resultado es muy natural y el trato inmejorable. Sin duda volveré para más tratamientos.",
-        date: "hace 2 semanas",
+        text: "Grandísimo profesional! 👏🏻\nMuchas gracias Javier porque desde hace años nos has ayudado a mí y a diferentes familiares.\nSin no hubiera sido gracias a tu gran experiencia e implicación que dedicas a tu trabajo, hubieran tardado más años en recuperarme de la lesión sin la mínima duda, o incluso a quirófano como me hicieron creer…Pero no, gracias a saber derivar a otro especialista cuando hay q hacerlo he conseguido recuperar casi del todo mi brazo! Han dado con mi tratamiento a la primera, con lo que solo tengo gratas sensaciones y palabras de agradecimiento total 👏🏻❤️👌🫶\nMás que recomendable 👌",
+        date: "Hace 8 meses"
       },
       {
-        author: "Javier Padilla",
+        author: "Miguel Angel Perez Reta",
         rating: 5,
-        text: "Excelente profesionalidad en todos los tratamientos. Las instalaciones son muy modernas y el ambiente muy relajante.",
-        date: "hace 1 mes",
+        text: "He tenido una experiencia excepcional en la clínica de fisioterapia Javier Iglesias. Desde la primera consulta, el equipo mostró una gran profesionalidad y dedicación. Sus tratamientos personalizados han sido clave en mi recuperación. La atención al detalle y el enfoque en el bienestar del paciente son inigualables. Además, las instalaciones están impecables y cuentan con la última tecnología. No podría estar más agradecido por su ayuda. Recomiendo esta clínica a cualquier persona que busque fisioterapia de alta calidad",
+        date: "Hace un año"
       },
       {
-        author: "Melanie Ponce",
+        author: "morenorapado",
         rating: 5,
-        text: "Me encantó el resultado del microblading. Quedé muy satisfecha con el trabajo realizado. Muy recomendable.",
-        date: "hace 1 mes",
+        text: "Mi nombre es Israel, el martes acudí a las consulta de Javier Iglesias porque tenía lo que para mí era una súper contractura a mitad de la espalda que me irradiaba hacia el cuello, y debo decir que con la poca y mala información que le di, con el tratamiento que me hizo consiguió aliviarme el dolor y colocarme el cuello y espalda. Sinceramente súper agradecido y lo recomiendo. muchas gracias Javier por haberme podido buscar un hueco y atenderme. Por mi experiencia personal 100% recomendable",
+        date: "Hace un año"
       },
       {
-        author: "María Teresa Salguero",
+        author: "Gabriel Santana Nuez",
         rating: 5,
-        text: "El mejor centro de estética de Puertollano. Tratamientos de calidad y atención personalizada. Volveré seguro.",
-        date: "hace 2 meses",
+        text: "Llevo toda mi carrera deportiva en manos de Javier. Ha sido el que ha conocido el tipo de lesiones relacionadas con mi deporte, desde una investigación conjunta, que ha hecho que haya estado siempre 100%, mitigando los procesos de recuperación, gracias a su gran profesionalidad y dedicación. 100% recomendable, para personas que necesiten una recuperación rápida y eficaz.",
+        date: "Hace un año"
       },
-    ],
+      {
+        author: "Ἀντιγόνη",
+        rating: 5,
+        text: "En la clínica de Javier se aúnan dos cosas muy difíciles de encontrar hoy en día: la excelencia profesional y la humana, es decir, saber hacer y saber ser; competencia y honestidad. La recomiendo rotundamente. No te sentirás estafado.",
+        date: "Hace un año"
+      }
+    ]
   },
-
-  // === SERVICIOS ===
   services: [
     {
-      id: "micropigmentacion",
-      name: "Micropigmentación",
-      description: "Técnica avanzada de maquillaje semipermanente para cejas, labios y ojos. Resultados naturales y duraderos que realzan tu belleza.",
-      benefits: ["Resultados naturales", "Larga duración", "Mínimo mantenimiento"],
-      icon: "Sparkles",
+      id: "fisioterapia-manual",
+      name: "Fisioterapia Manual",
+      description: "Técnicas manuales especializadas para tratar contracturas, dolor cervical y lumbar. Trabajamos con precisión para colocar correctamente las estructuras y aliviar el dolor desde la primera sesión. Tratamientos adaptados a la información que nos proporcionas y a tu diagnóstico específico.",
+      benefits: [
+        "Alivio inmediato del dolor",
+        "Mejora de la movilidad articular",
+        "Corrección postural efectiva"
+      ],
+      icon: "Hand"
     },
     {
-      id: "microblading",
-      name: "Microblading de Cejas",
-      description: "Técnica pelo a pelo para cejas perfectamente definidas. Efecto hiperrealista que simula el vello natural.",
-      benefits: ["Efecto pelo a pelo", "Cejas definidas", "Aspecto natural"],
-      icon: "Feather",
+      id: "fisioterapia-deportiva",
+      name: "Fisioterapia Deportiva",
+      description: "Especialización en lesiones relacionadas con la práctica deportiva mediante investigación conjunta con el atleta. Procesos de recuperación rápidos que te mantienen al 100% durante toda tu carrera deportiva. Conocimiento profundo de lesiones específicas de cada deporte.",
+      benefits: [
+        "Recuperación rápida y eficaz",
+        "Prevención de recaídas",
+        "Mantenimiento del rendimiento óptimo"
+      ],
+      icon: "Dumbbell"
     },
     {
-      id: "depilacion-laser",
-      name: "Depilación Láser",
-      description: "Eliminación definitiva del vello con tecnología láser de última generación. Tratamientos seguros y efectivos.",
-      benefits: ["Resultados permanentes", "Sin dolor", "Piel suave"],
-      icon: "Zap",
+      id: "rehabilitacion-personalizada",
+      name: "Rehabilitación Personalizada",
+      description: "Programas de rehabilitación diseñados específicamente para tu lesión y objetivos. Seguimiento continuo durante años si es necesario, con compromiso total en tu recuperación. Evitamos intervenciones quirúrgicas innecesarias mediante tratamientos conservadores efectivos.",
+      benefits: [
+        "Planes adaptados a tu evolución",
+        "Seguimiento a largo plazo",
+        "Alternativa eficaz a la cirugía"
+      ],
+      icon: "Activity"
     },
     {
-      id: "tratamientos-faciales",
-      name: "Tratamientos Faciales",
-      description: "Cuidados personalizados para cada tipo de piel. Hidratación profunda, antiedad y luminosidad para un rostro radiante.",
-      benefits: ["Piel rejuvenecida", "Hidratación profunda", "Luminosidad"],
-      icon: "Flower2",
+      id: "tratamiento-contracturas",
+      name: "Tratamiento de Contracturas",
+      description: "Especialistas en resolver contracturas complejas que irradian hacia otras zonas como cuello y espalda. Conseguimos alivio del dolor y recolocación de estructuras incluso con información limitada del paciente. Resultados desde la primera sesión.",
+      benefits: [
+        "Alivio inmediato del dolor",
+        "Eliminación de irradiaciones",
+        "Técnicas precisas y efectivas"
+      ],
+      icon: "Target"
     },
     {
-      id: "tratamientos-corporales",
-      name: "Tratamientos Corporales",
-      description: "Tratamientos reductores, reafirmantes y anticelulíticos. Moldea tu silueta con las técnicas más avanzadas.",
-      benefits: ["Reduce centímetros", "Reafirma la piel", "Elimina celulitis"],
-      icon: "Heart",
+      id: "tecnologia-avanzada",
+      name: "Tecnología de Última Generación",
+      description: "Instalaciones impecables equipadas con la última tecnología en fisioterapia. Combinamos técnicas manuales con equipamiento de vanguardia para acelerar tu recuperación. Inversión continua en formación y tecnología para ofrecerte lo mejor.",
+      benefits: [
+        "Equipamiento de última generación",
+        "Instalaciones modernas e impecables",
+        "Tratamientos más efectivos"
+      ],
+      icon: "Zap"
     },
     {
-      id: "manicura-pedicura",
-      name: "Manicura y Pedicura",
-      description: "Cuidado completo de manos y pies con esmaltes de alta calidad. Uñas perfectas con diseños personalizados.",
-      benefits: ["Uñas perfectas", "Manos cuidadas", "Diseños exclusivos"],
-      icon: "Hand",
+      id: "valoracion-derivacion",
+      name: "Valoración y Derivación Especializada",
+      description: "Honestidad profesional que nos lleva a derivar a otros especialistas cuando es necesario para tu recuperación óptima. Diagnósticos precisos que dan con el tratamiento adecuado a la primera. Red de especialistas de confianza para casos complejos.",
+      benefits: [
+        "Diagnóstico preciso y honesto",
+        "Derivación cuando es necesario",
+        "Tratamiento correcto desde el inicio"
+      ],
+      icon: "Heart"
     },
     {
-      id: "extensiones-pestanas",
-      name: "Extensiones de Pestañas",
-      description: "Mirada impactante con extensiones de pestañas pelo a pelo. Efecto natural o dramático según tu preferencia.",
-      benefits: ["Mirada intensa", "Efecto natural", "Sin máscara"],
-      icon: "Eye",
+      id: "tratamiento-espalda-cuello",
+      name: "Tratamiento de Espalda y Cuello",
+      description: "Expertos en problemas cervicales, dorsales y lumbares. Colocación precisa de vértebras y alivio de tensiones musculares que causan dolor irradiado. Atención urgente disponible para casos agudos que requieren intervención inmediata.",
+      benefits: [
+        "Corrección de desalineaciones",
+        "Eliminación del dolor irradiado",
+        "Disponibilidad para urgencias"
+      ],
+      icon: "Activity"
     },
     {
-      id: "maquillaje-profesional",
-      name: "Maquillaje Profesional",
-      description: "Maquillaje para eventos especiales, novias y sesiones fotográficas. Realza tu belleza para cada ocasión.",
-      benefits: ["Look personalizado", "Alta duración", "Acabado profesional"],
-      icon: "Palette",
-    },
+      id: "recuperacion-lesiones-complejas",
+      name: "Recuperación de Lesiones Complejas",
+      description: "Tratamiento especializado de lesiones que otros profesionales recomiendan operar. Años de experiencia en casos difíciles con resultados que evitan el quirófano. Implicación total en tu proceso de recuperación hasta conseguir resultados óptimos.",
+      benefits: [
+        "Evita cirugías innecesarias",
+        "Experiencia en casos complejos",
+        "Compromiso hasta la recuperación total"
+      ],
+      icon: "Target"
+    }
   ],
-
-  // === PROCESO ===
   process: [
     {
       step: 1,
-      title: "Contacta",
-      description: "Solicita tu cita de consulta inicial por teléfono o WhatsApp",
+      title: "Contacta con Nosotros",
+      description: "Llámanos al 637 94 05 43 o escríbenos por WhatsApp. Buscamos huecos para atenderte con rapidez, incluso en situaciones urgentes que requieren atención inmediata."
     },
     {
       step: 2,
-      title: "Consulta",
-      description: "Analizamos tus necesidades y diseñamos el tratamiento ideal para ti",
+      title: "Valoración Profesional Detallada",
+      description: "Realizamos una evaluación exhaustiva de tu lesión o dolencia. Escuchamos tu caso y diseñamos un diagnóstico preciso, decidiendo si podemos tratarte directamente o si necesitas derivación a otro especialista."
     },
     {
       step: 3,
-      title: "Tratamiento",
-      description: "Realizamos el tratamiento con las técnicas más avanzadas y productos de calidad",
+      title: "Tratamiento Personalizado",
+      description: "Aplicamos técnicas manuales avanzadas y tecnología de última generación adaptadas a tu caso específico. Combinamos nuestra experiencia con instalaciones modernas para conseguir resultados desde la primera sesión."
     },
     {
       step: 4,
-      title: "Resultados",
-      description: "Disfruta de resultados espectaculares y un seguimiento personalizado",
-    },
+      title: "Seguimiento Hasta tu Recuperación Total",
+      description: "Mantenemos un compromiso continuo contigo durante todo el proceso, que puede durar semanas, meses o años según tu caso. No te abandonamos hasta conseguir tu recuperación completa y duradera."
+    }
   ],
-
-  // === POR QUÉ ELEGIRNOS ===
   whyUs: [
     {
-      title: "Especialistas en Micropigmentación",
-      description: "Técnicas avanzadas de micropigmentación y microblading con resultados naturales y duraderos",
-      icon: "Award",
+      title: "Excelencia Profesional Avalada",
+      description: "Con 4.9 estrellas en Google basadas en 66 reseñas reales, nuestros pacientes destacan la profesionalidad, dedicación y resultados efectivos. Combinamos años de experiencia con formación continua y conocimiento profundo de lesiones complejas.",
+      icon: "Award"
     },
     {
-      title: "Tecnología de Vanguardia",
-      description: "Equipos de última generación para tratamientos más efectivos y seguros",
-      icon: "Cpu",
+      title: "Recuperación Sin Cirugía Innecesaria",
+      description: "Especialistas en tratar lesiones que otros profesionales derivan a quirófano. Gracias a nuestra experiencia y tratamientos avanzados, conseguimos recuperaciones completas de forma conservadora, evitando intervenciones quirúrgicas cuando no son necesarias.",
+      icon: "Shield"
     },
     {
-      title: "Atención Personalizada",
-      description: "Cada clienta recibe un tratamiento único adaptado a sus necesidades y deseos",
-      icon: "UserCheck",
+      title: "Honestidad y Derivación Responsable",
+      description: "Nuestra transparencia profesional nos lleva a derivar a otros especialistas cuando es lo mejor para tu recuperación. Esta honestidad garantiza que recibas el tratamiento correcto desde el inicio, dando con la solución a la primera.",
+      icon: "Heart"
     },
     {
-      title: "Valoración 4.7 Estrellas",
-      description: "190 clientas satisfechas nos avalan con excelentes valoraciones en Google",
-      icon: "Star",
-    },
+      title: "Tecnología e Instalaciones de Vanguardia",
+      description: "Instalaciones impecables equipadas con la última tecnología en fisioterapia. Combinamos técnicas manuales especializadas con equipamiento moderno para acelerar tu recuperación y ofrecerte los tratamientos más efectivos del sector.",
+      icon: "Zap"
+    }
   ],
-
-  // === EQUIPO ===
   team: [
     {
-      name: "Centro Estética CyM",
-      role: "Especialistas en Micropigmentación",
+      name: "Javier Iglesias",
+      role: "Fisioterapeuta Director",
       image: "/images/team/placeholder.jpg",
-      bio: "Profesionales apasionadas por la belleza y el cuidado personal. Con años de experiencia en micropigmentación, microblading y tratamientos estéticos, nos dedicamos a realzar la belleza natural de cada clienta.",
-    },
+      bio: "Profesionales apasionados por la fisioterapia y la rehabilitación. En Clínica de fisioterapia Javier Iglesias Nespereira nos dedicamos a devolver la calidad de vida a nuestros pacientes con tratamientos personalizados y tecnología avanzada."
+    }
   ],
-
-  // === GALERÍA ===
   gallery: [
-    { src: "/images/gallery/local-fuera.webp", alt: "Fachada del Centro Estética CyM" },
-    { src: "/images/gallery/local-dentro.webp", alt: "Interior del centro - Recepción" },
-    { src: "/images/gallery/clinica-dentro1.webp", alt: "Sala de tratamientos" },
+    {
+      src: "/images/hero.webp",
+      alt: "Clínica de fisioterapia Javier Iglesias Nespereira - Imagen 1"
+    },
+    {
+      src: "/images/gallery/2.webp",
+      alt: "Clínica de fisioterapia Javier Iglesias Nespereira - Imagen 2"
+    },
+    {
+      src: "/images/gallery/3.webp",
+      alt: "Clínica de fisioterapia Javier Iglesias Nespereira - Imagen 3"
+    },
+    {
+      src: "/images/gallery/4.webp",
+      alt: "Clínica de fisioterapia Javier Iglesias Nespereira - Imagen 4"
+    },
+    {
+      src: "/images/gallery/5.webp",
+      alt: "Clínica de fisioterapia Javier Iglesias Nespereira - Imagen 5"
+    },
+    {
+      src: "/images/gallery/6.webp",
+      alt: "Clínica de fisioterapia Javier Iglesias Nespereira - Imagen 6"
+    },
+    {
+      src: "/images/gallery/7.webp",
+      alt: "Clínica de fisioterapia Javier Iglesias Nespereira - Imagen 7"
+    }
   ],
-
-  // === FAQ ===
   faq: [
     {
-      question: "¿Cuánto dura la micropigmentación?",
-      answer: "La micropigmentación puede durar entre 1 y 3 años dependiendo del tipo de piel, cuidados posteriores y la zona tratada. Ofrecemos retoques para mantener el resultado óptimo.",
+      question: "¿Qué tipo de lesiones tratáis en la Clínica de fisioterapia Javier Iglesias Nespereira?",
+      answer: "Tratamos todo tipo de lesiones musculoesqueléticas, desde contracturas y dolores de espalda hasta lesiones deportivas complejas. Nos especializamos en casos difíciles que otros profesionales derivan a cirugía, consiguiendo recuperaciones completas con tratamiento conservador. También atendemos urgencias y casos agudos que requieren atención inmediata."
     },
     {
-      question: "¿Es doloroso el microblading de cejas?",
-      answer: "El procedimiento es prácticamente indoloro gracias a la aplicación de crema anestésica tópica. La mayoría de clientas describen la sensación como un ligero cosquilleo.",
+      question: "¿Cuánto dura el tratamiento de recuperación?",
+      answer: "La duración depende de cada caso individual. Algunos pacientes experimentan alivio desde la primera sesión, mientras que lesiones complejas pueden requerir seguimiento durante meses. En la Clínica de fisioterapia Javier Iglesias Nespereira mantenemos un compromiso continuo hasta tu recuperación total, sin importar el tiempo necesario."
     },
     {
-      question: "¿Cuántas sesiones necesito para la depilación láser?",
-      answer: "Generalmente se necesitan entre 6 y 8 sesiones espaciadas cada 4-6 semanas para obtener resultados óptimos. El número exacto depende del tipo de piel y vello.",
+      question: "¿Tratáis lesiones deportivas específicas?",
+      answer: "Sí, somos especialistas en fisioterapia deportiva con amplia experiencia en deportistas de alto nivel. Conocemos las lesiones específicas de cada deporte mediante investigación conjunta con el atleta. Nuestro objetivo es mantenerte al 100% durante toda tu carrera deportiva con procesos de recuperación rápidos y eficaces."
     },
     {
-      question: "¿Qué cuidados necesito después de un tratamiento facial?",
-      answer: "Recomendamos evitar el sol directo, usar protección solar SPF50 y seguir la rutina de cuidados que te indicamos según tu tipo de piel.",
+      question: "¿Qué tecnología utilizáis en la clínica?",
+      answer: "Contamos con instalaciones impecables equipadas con la última tecnología en fisioterapia. Combinamos equipamiento de vanguardia con técnicas manuales avanzadas para ofrecer los tratamientos más efectivos. Invertimos continuamente en formación y tecnología para garantizar resultados óptimos."
     },
     {
-      question: "¿Ofrecéis tratamientos para novias?",
-      answer: "Sí, tenemos packs especiales para novias que incluyen tratamientos faciales, maquillaje de prueba y el día de la boda, manicura y más.",
+      question: "¿Deriváis a otros especialistas si es necesario?",
+      answer: "Sí, una de nuestras señas de identidad es la honestidad profesional. En la Clínica de fisioterapia Javier Iglesias Nespereira derivamos a otros especialistas cuando consideramos que es lo mejor para tu recuperación. Esta transparencia nos permite dar con el tratamiento adecuado a la primera y evitar procesos innecesarios."
     },
     {
-      question: "¿Las extensiones de pestañas dañan mis pestañas naturales?",
-      answer: "No, cuando se aplican correctamente por profesionales cualificados, las extensiones no dañan las pestañas naturales. Usamos adhesivos de alta calidad y técnicas seguras.",
+      question: "¿Puedo conseguir cita con rapidez?",
+      answer: "Hacemos todo lo posible por atender casos urgentes con rapidez. Buscamos huecos en nuestra agenda para personas que necesitan atención inmediata. Llámanos al 637 94 05 43 y te informaremos sobre disponibilidad para tu caso específico."
     },
     {
-      question: "¿Cuánto dura una sesión de tratamiento facial?",
-      answer: "Dependiendo del tratamiento, las sesiones duran entre 45 y 90 minutos. Incluimos tiempo para la consulta inicial y recomendaciones personalizadas.",
+      question: "¿Qué valoración tienen vuestros pacientes?",
+      answer: "La Clínica de fisioterapia Javier Iglesias Nespereira tiene una valoración de 4.9 estrellas sobre 5 en Google, basada en 66 reseñas de pacientes reales. Nuestros pacientes destacan la profesionalidad, la dedicación, los resultados efectivos y la combinación de excelencia técnica con trato humano excepcional."
     },
     {
-      question: "¿Necesito cita previa?",
-      answer: "Sí, recomendamos siempre reservar cita previa para garantizar la disponibilidad y poder dedicarte el tiempo que mereces. Puedes reservar por teléfono o WhatsApp.",
-    },
+      question: "¿Dónde está ubicada la clínica?",
+      answer: "Estamos ubicados en Las Palmas, Álava. Puedes contactarnos en el teléfono 637 94 05 43 para solicitar información sobre cómo llegar o para reservar tu cita de valoración. También atendemos consultas por WhatsApp en el mismo número."
+    }
   ],
-
-  // === SEO ===
   seo: {
-    titleTemplate: "%s | Centro Estética CyM - Belleza en Puertollano",
-    defaultTitle: "Centro Estética CyM | Tu Centro de Belleza en Puertollano",
-    defaultDescription: "Centro de estética en Puertollano especializado en micropigmentación, microblading, depilación láser y tratamientos faciales. Profesionales cualificados. Cita previa: 629 61 04 71.",
+    titleTemplate: "%s | Clínica de fisioterapia Javier Iglesias Nespereira",
+    defaultTitle: "Fisioterapia Las Palmas | Clínica Javier Iglesias",
+    defaultDescription: "Clínica de fisioterapia en Las Palmas, Álava. Especialistas en lesiones deportivas y recuperación sin cirugía. 4.9★ en Google. Pide cita: 637 94 05 43",
     keywords: [
-      "centro estética Puertollano",
-      "micropigmentación Puertollano",
-      "microblading cejas Puertollano",
-      "depilación láser Puertollano",
-      "tratamientos faciales Puertollano",
-      "extensiones pestañas Puertollano",
-      "maquillaje profesional",
-      "manicura pedicura",
-      "tratamientos corporales",
-      "belleza Puertollano",
-      "Centro Estética CyM",
-      "estética Ciudad Real",
+      "fisioterapia Las Palmas",
+      "fisioterapeuta Las Palmas Álava",
+      "Clínica fisioterapia Javier Iglesias Nespereira",
+      "fisioterapia deportiva Las Palmas",
+      "rehabilitación Las Palmas",
+      "tratamiento contracturas Álava",
+      "fisioterapia manual Las Palmas",
+      "recuperación lesiones deportivas Álava",
+      "fisioterapeuta deportivo Las Palmas",
+      "clínica fisioterapia Álava",
+      "tratamiento espalda Las Palmas",
+      "fisioterapia sin cirugía Álava"
     ],
-    ogImage: "/og-image.jpg",
+    ogImage: "/og-image.jpg"
   },
-
-  // === LEGAL ===
   legal: {
-    companyName: "Centro Estética CyM",
+    companyName: "Clínica de fisioterapia Javier Iglesias Nespereira",
     cif: "",
-    registeredAddress: "C. Numancia, 40, 13500 Puertollano, Ciudad Real",
+    registeredAddress: "C. Víctor Hugo, 52, 35006 Las Palmas de Gran Canaria, Las Palmas, España, Las Palmas, Álava"
   },
-
-  // === UI COPY (driven by clinic type) ===
-  heroHeadline: ["Tu Centro de", "Belleza", "en Puertollano"],
-  heroDescription: "Realza tu belleza natural con tratamientos de micropigmentación, microblading y estética avanzada. Profesionales cualificadas y tecnología de vanguardia.",
-  specialty: "Micropigmentación",
-  ctaLabel: "Realza tu Belleza",
-  ctaHeadline: "¿Lista para brillar?",
-  ctaDescription: "Da el primer paso hacia tu mejor versión. Pide tu cita ahora y nuestro equipo te asesorará de forma personalizada.",
-  statsLabel: "Clientas",
-  schemaType: "BeautySalon",
+  heroHeadline: [
+    "Tu Centro de",
+    "Fisioterapia",
+    "en Las Palmas"
+  ],
+  heroDescription: "En nuestra clínica de Las Palmas combinamos experiencia profesional con un trato humano excepcional. Aplicamos tratamientos personalizados y derivamos a especialistas cuando es necesario, garantizando tu recuperación óptima sin intervenciones innecesarias.",
+  specialty: "Fisioterapia Deportiva Avanzada",
+  ctaLabel: "Tu Recuperación",
+  ctaHeadline: "¿Listo para recuperar tu bienestar?",
+  ctaDescription: "Solicita tu cita de valoración y descubre cómo podemos ayudarte a recuperarte de forma rápida y eficaz. Llámanos o escríbenos por WhatsApp.",
+  statsLabel: "Pacientes",
+  schemaType: "PhysicalTherapy",
   sectionCopy: {
     servicesLabel: "Nuestros Servicios",
     servicesTitle: "Tratamientos especializados",
-    servicesDescription: "Técnicas avanzadas de estética y belleza para realzar tu imagen y cuidar de ti.",
+    servicesDescription: "Soluciones profesionales adaptadas a tus necesidades de salud.",
     processLabel: "Cómo Trabajamos",
-    processTitle: "Tu camino hacia la belleza en 4 pasos",
+    processTitle: "Tu camino hacia la recuperación en 4 pasos",
     processDescription: "Un proceso simple y transparente diseñado para tu comodidad.",
     whyUsLabel: "Por Qué Elegirnos",
-    whyUsTitle: "Tu belleza, nuestra pasión",
-    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para realzar tu belleza natural.",
+    whyUsTitle: "Tu salud, nuestra prioridad",
+    whyUsDescription: "Combinamos experiencia, las mejores técnicas y un trato personalizado para cuidar de tu salud.",
     reviewsLabel: "Opiniones",
-    reviewsTitle: "Lo que dicen nuestras clientas",
+    reviewsTitle: "Lo que dicen nuestros pacientes",
     galleryLabel: "Instalaciones",
-    galleryTitle: "Conoce nuestro centro",
-    galleryDescription: "Un espacio diseñado para tu bienestar y relajación",
+    galleryTitle: "Conoce nuestra clínica",
+    galleryDescription: "Un espacio diseñado para tu bienestar y recuperación",
     faqLabel: "FAQ",
     faqTitle: "Preguntas frecuentes",
-    faqDescription: "Resolvemos las dudas más comunes de nuestras clientas.",
+    faqDescription: "Resolvemos las dudas más comunes de nuestros pacientes.",
     locationLabel: "Ubicación",
     locationTitle: "Cómo llegar",
     teamLabel: "Nuestro Equipo",
-    teamTitle: "Profesionales especializadas",
-    teamDescription: "Experiencia y pasión al servicio de tu belleza",
-  },
+    teamTitle: "Profesionales especializados",
+    teamDescription: "Experiencia y dedicación al servicio de tu salud"
+  }
 }
 
 export type Clinic = typeof clinic
